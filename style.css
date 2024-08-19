@@ -203,7 +203,7 @@ body.dark #moon{
 .typedText{
     font-family: sans-serif;
     color: #8749f2;
-    font-size: 8px;
+    font-size: 60px;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -826,4 +826,24 @@ footer {
         align-items: center;
         margin-left: 60%;
     }
+}
+
+/**/
+
+@media only screen and (max-width: 540px) {
+     .featured-name{
+        font-size: 40px;
+     }
+     .project-box{
+        width: 100%;
+     }
+     .form-inputs {
+        flex-direction: column;
+     }
+     .input-field {
+        width: 100%;
+     }
+     .mode{
+        margin-left: 50%;
+     }
 }
